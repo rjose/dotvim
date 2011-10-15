@@ -13,3 +13,4 @@ let g:solarized_visibility="high"
 colorscheme solarized
 
 syntax enable
+filetype plugin indent on
