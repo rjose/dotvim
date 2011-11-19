@@ -12,10 +12,22 @@ let g:solarized_contrast="high"
 let g:solarized_visibility="high"
 colorscheme solarized
 
+
 syntax enable
 filetype plugin indent on
+set hlsearch
 
 set number
+set guifont=Monaco:h12
+
+if has("gui_running")
+    set guioptions=egmrt
+endif
+
+set wm=4
+
+set vb t_vb=
+set wildmenu
 
 set smartindent
 set tabstop=2

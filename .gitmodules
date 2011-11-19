@@ -16,3 +16,9 @@
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
+[submodule "bundle/closetag"]
+	path = bundle/closetag
+	url = git://github.com/docunext/closetag.vim.git
