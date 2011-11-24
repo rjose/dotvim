@@ -21,3 +21,8 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
+"set statusline=%<%f\ %{fugitive#statusline()}\ %=L:%l/%L\ (%p%%) 
+set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}\ %=%-16(\ L:%l/%L\ C:%c\ %)%p%%
+
+set laststatus=2
